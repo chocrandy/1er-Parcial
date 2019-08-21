@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+h1
+{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size-adjust: none;
+    color: snow;
+}
+body
+{
+    background-image: url("/img/f2.jpg");
+    color: black;
+}
+.cab, .main, footer
+{
+    width: 10px 10px;
+} 
+.cab
+{
+    background-image: url("/img/nav.jpg");
+    padding: 10px;
+    margin: 20px 30px;
+}
+.navegador
+{
+    background-color: teal;
+    margin-top: 20px;
+    border-style: double;
+    color: snow;
+}
+.navegador ul
+{
+    list-style-type: none;
+}
+.navegador ul li
+{
+    display: inline-block;
+    padding: 10px;
+}
+.navegador ul li:hover
+{
+    background-color: aquamarine;
+    color: black;
+}
+.main
+{
+    background-image: url("/img/fondo.jpg");
+    border-style: groove;
+    margin: 10px 30px;
+    padding: 10px;
+    overflow: hidden;
+}
+.arti
+{
+    background-color: orangered;
+    width: 68%;
+    margin-right: 2%;
+    float: left;
+    text-align: justify;
+}
+.arti article
+{
+    margin-bottom: 10px;
+    border-style: dotted;
+    margin: 10px;
+    padding: 10px;
+}
+.noticias
+{
+    background-color: darkorange;
+    border-style: double;
+    margin: 10px;
+    padding: 80px 20px;
+    width: 20%;
+    float: right;
+    margin-top: 0px;
+    text-align: justify;
+}
+footer
+{
+    background-color: white;
+    text-align: right;
+    border-style: double;
+    clear: both;
+    margin: 10px 30px;
+    padding: 10px;
+}
